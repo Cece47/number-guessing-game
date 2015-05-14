@@ -11,7 +11,7 @@ btn.addEventListener('click', function() {
 function compare (guess, randomNumber) {
   if (guess > randomNumber) {
     return 'You guessed too high. Try again.';
-  } else if (guess > randomNumber) {
+  } else if (guess < randomNumber) {
     return 'You guessed too low. Try again.';
   } else if (guess == randomNumber) {
     return 'You won!';
